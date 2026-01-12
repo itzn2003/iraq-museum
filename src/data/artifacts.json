@@ -1,0 +1,49 @@
+{
+  "mask-of-warka": {
+    "en": {
+      "name": "Mask of Warka",
+      "period": "3100 BCE",
+      "description": "Known as the Mask of Warka or the 'Lady of Uruk', it is one of the earliest representations of the human face. Carved from white marble, it is believed to represent the goddess Inanna. Standing about 21.5 cm tall, it was famously recovered and returned to the Iraq Museum after the events of 2003.",
+      "location": "Sumerian Gallery",
+      "measurements": "21.5 cm"
+    },
+    "ar": {
+      "name": "فتاة الوركاء",
+      "period": "٣١٠٠ ق.م",
+      "description": "فتاة الوركاء، المعروفة أيضا باسم قناع الوركاء، هي واحدة من أقدم تمثيلات الوجه البشري المعروفة. تمثلها الوجه من الحجر الأبيض (الرخام) وهي تعتقد أنها تمثل إينانا. تبلغ أرتفاعها حوالي 21.5 سم، وقد كانت قد أُعيدت إلى المتحف العراقي بعد سرقتها في أحداث 2003م.",
+      "location": "القاعة السومرية",
+      "measurements": "٢١.٥ سم"
+    },
+    "image": "/images/warka.png"
+  },
+  "warka-vase": {
+    "en": {
+      "name": "The Vase of Vows",
+      "period": "3200 BCE",
+      "description": "Discovered in Uruk during German excavations (1931-1939), this alabaster vase dates to 3200 BCE. It is a masterpiece of Mesopotamian art used in sacred religious rituals, depicting scenes of offerings and sacrifices to the gods.",
+      "location": "Sumerian Gallery"
+    },
+    "ar": {
+      "name": "الإناء النذري",
+      "period": "٣٢٠٠ ق.م",
+      "description": "يعتبر الإناء النذري المكتشف في مدينة الوركاء السومرية خلال تنقيبات البعثة الآثارية الألمانية للفترة 1931-1939، والذي يرجع تاريخه الى بحدود 3200ق.م، أحد أهم وأروع القطع الفنية الرافدينية، حيث كان له قدسية مميزة من خلال استخدامه ضمن طقوس خاصة تتضمن مراسيم تقديم القرابين والنذور للآلهة.",
+      "location": "القاعة السومرية"
+    },
+    "image": "/images/Ina.jpg"
+  },
+  "sumerian-lyre": {
+    "en": {
+      "name": "The Sumerian Lyre",
+      "period": "4500 BCE",
+      "description": "Also known as the Lyre of Ur, it is one of the oldest stringed instruments in history. Discovered in 1929 by British archaeologist Leonard Woolley in the Royal Cemetery of Ur in southern Iraq.",
+      "location": "Ur Collection"
+    },
+    "ar": {
+      "name": "القيثارة السومرية",
+      "period": "٤٥٠٠ ق.م",
+      "description": "القيثارة السومرية، المعروفة أيضا باسم قيثارة أور، هي واحدة من أقدم الآلات الموسيقية الوترية في التاريخ، وقد اكتشفت في مقبرة أور الأثرية في العراق عام 1929 من قبل عالم الآثار البريطاني ليونارد وولي.",
+      "location": "مجموعة أور"
+    },
+    "image": "/images/Harp.png"
+  }
+}

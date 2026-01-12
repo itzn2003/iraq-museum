@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --color-museum-dark: #0b0c10;
+  --color-museum-gold: #c5a059;
+  --color-museum-bg: #0b0c10;
+  --color-museum-surface: rgba(11, 12, 16, 0.95);
+  --color-museum-text: #e5e7eb;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Prevents the "bounce" on mobile */
+}
+
+.light {
+  --color-museum-bg: #f0f0eb;
+  --color-museum-dark: #ffffff;
+  --color-museum-surface: rgba(255, 255, 255, 0.95);
+  --color-museum-text: #1a1a1a;
+  --color-museum-gold: #8a6d3b;
+}
+
+:root {
+  background-color: var(--color-museum-bg);
+  color: var(--color-museum-text);
+  transition: background-color 0.7s cubic-bezier(0.4, 0, 0.2, 1), color 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Complex Styling Elements */
+
+/* Noise Texture */
+.bg-grain {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.03;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Vignette Effect */
+.vignette {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: radial-gradient(circle at center, transparent 40%, rgba(0,0,0,0.4) 100%);
+  transition: background 0.7s ease;
+}
+
+.light .vignette {
+  background: radial-gradient(circle at center, transparent 40%, rgba(138, 109, 59, 0.1) 100%);
+}
+
+/* Ornamental Border */
+.ornamental-border {
+  position: fixed;
+  inset: 16px;
+  z-index: 10;
+  pointer-events: none;
+  border: 1px solid var(--color-museum-gold);
+  opacity: 0.4;
+  transition: border-color 0.7s ease;
+}
+
+.ornamental-border::before,
+.ornamental-border::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--color-museum-gold);
+  transition: border-color 0.7s ease;
+}
+
+.ornamental-border::before {
+  top: -1px;
+  left: -1px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.ornamental-border::after {
+  bottom: -1px;
+  right: -1px;
+  border-left: none;
+  border-top: none;
+}
